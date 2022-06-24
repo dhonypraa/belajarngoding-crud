@@ -1,6 +1,6 @@
 <div class="container">
   <h2>Input Data</h2>
-  <form action="/action_page.php">
+  <form action="controllers/proses_input_data.php" method="POST">
     <div class="form-group">
       <label>Nama:</label>
       <input type="text" class="form-control" placeholder="Masukan Nama" name="nama">
@@ -13,6 +13,6 @@
       <label>Jurusan:</label>
       <input type="text" class="form-control" placeholder="Masukan Jurusan" name="jurusan">
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary">Input Data</button>
   </form>
 </div>
