@@ -6,7 +6,7 @@
 
     require_once '../connect.php';
 
-    $query = mysqli_query($koneksi, "INSERT INTO mahasiswa VALUE('', '$nama', '$nim', '$jurusan')");
+    $query = mysqli_query($connect, "INSERT INTO mahasiswa(nama,nim,jurusan) VALUES('$nama', '$nim', '$jurusan')");
 
     if($query) {
         echo "<script>alert('Data berhasil ditambah'); windows.location.href = '../index.php' </script>";
