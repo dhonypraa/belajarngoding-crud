@@ -10,6 +10,10 @@
             case 'data' :
                 include 'views/tampil_data.php';
                 break;
+
+            case 'edit':
+                include 'views/form_edit_data.php';
+                break;
         }
 
     } else {
